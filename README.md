@@ -13,8 +13,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 🔗 Links
 
-- Solution URL: [Add your solution link here]
-- Live Site URL: [Add your live site link here]
+- Solution URL: [https://github.com/fikki008/order-summary-component.git]
+- Live Site URL: [(https://fikki-order-component-summary.netlify.app/)]
 
 ---
 
