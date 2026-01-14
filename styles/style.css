@@ -1,0 +1,184 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+   font-family: "Red Hat Display", sans-serif;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  max-width: 350px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden; 
+}
+
+/* IMAGE */
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+/* CONTENT */
+.card-contents-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-content h1 {
+  font-size: 22px;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 25px;
+}
+
+/* PLAN SECTION */
+.plan-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.plan-left {
+  display: flex;
+  align-items: center;
+}
+
+.icon-img {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.plan-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.plan-time {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-info a {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.plan-info a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* BUTTONS */
+.card-actions button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin-bottom: 15px;
+  box-shadow: 0px 17px 12px hsl(244, 57%, 91%);
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  background: none;
+  color: hsl(223, 47%, 23%);
+}
+
+
+/* DESKTOP BACKGROUND */
+@media (min-width: 768px) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+  }
+    .card {
+    max-width: 360px;
+  }
+
+  .card-contents-container {
+    padding: 35px;
+  }
+
+  .description {
+    font-size: 14.5px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .card {
+    max-width: 380px;
+  }
+
+  .card-contents-container {
+    padding: 30px;
+  }
+
+  .card-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .plan-info {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .card-actions button {
+    padding: 18px;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+}
