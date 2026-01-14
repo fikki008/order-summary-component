@@ -46,7 +46,7 @@ I plan to continue improving my responsive design skills and work on more Fronte
 
 ## 👤 Author
 
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor – [@fikki💙](https://www.frontendmentor.io/profile/fikki💙)
 
 ---
 
